@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/show_solution"
+  	android:title="@string/show_solution_label"
+  />
+  <item android:id="@+id/get_hint"
+  	android:title="@string/get_hint_label"
+  />
+  <item android:id="@+id/save_puzzle"
+  	android:title="@string/save_puzzle_label"
+  />
+  <item android:id="@+id/clean_solution"
+  	android:title="@string/clean_label"
+  />
+  <item android:id="@+id/play_this_puzzle"
+  	android:title="@string/play_label"
+  />
+</menu>

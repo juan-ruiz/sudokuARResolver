@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="im_number_button_completed_text">#ff335e6c</color>
+    <color name="im_number_button_selected_background">#f0b32a</color>
+    <color name="puzzle_background">#ffe6f0ff</color>
+	<color name="puzzle_hilte">#ffffffff</color>
+	<color name="puzzle_light">#64c6d4ef</color>
+	<color name="puzzle_dark">#64ff0000</color>
+	<color name="puzzle_foreground">#ff000000</color>
+	<color name="puzzle_invalid">#64ff0000</color>
+	<color name="puzzle_selected">#64ff8000</color>
+	<color name="puzzle_hint">#6400ff80</color>
+</resources>

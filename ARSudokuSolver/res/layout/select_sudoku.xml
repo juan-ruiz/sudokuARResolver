@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+    	android:id="@+id/sudoku_image"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    />
+    <Button
+    	android:id="@+id/clockwise_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentBottom="true"
+    	android:text="Rotate"
+    />
+   <Button
+    	android:id="@+id/start_grabbing_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toLeftOf="@id/clockwise_button"
+        android:layout_alignTop="@id/clockwise_button"
+    	android:text="Grab"
+    />
+</RelativeLayout>
